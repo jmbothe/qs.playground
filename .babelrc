@@ -1,0 +1,23 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,
+      "targets": {
+        "browsers": "> 5%"
+      }
+    }],
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    "styled-components",
+    [
+      "module-resolver",
+      {
+        "root": [
+          "."
+        ]
+      }
+    ]
+  ]
+}
