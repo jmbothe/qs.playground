@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "immutability-helper": "^2.8.0",
+    "lodash.debounce": "^4.0.8",
+    "qs": "^6.5.2",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-router": "^4.3.1",
