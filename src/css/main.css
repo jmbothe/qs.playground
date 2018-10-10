@@ -10,3 +10,25 @@ html {
 #root {
   min-height: 100vh;
 }
+
+header {
+  padding: 1rem;
+  width: 100%;
+  background-color: #F44336;
+  color: #fff;
+  border-top: 10px solid #D32F2F;
+  box-shadow: 0 0 20px 4px #ddd;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+label {
+  font-size: 1.25rem !important;
+}
