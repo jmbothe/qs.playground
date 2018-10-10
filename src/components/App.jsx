@@ -31,7 +31,7 @@ class App extends Component {
     this.setState(prevState => {
       const input = prevState.objectForm.inputValue;
       try {
-        if (!/^{.*}$/.test(input)) {
+        if (!/^{[^]*}$/.test(input)) {
           throw new Error('Invalid JavaScript template literal.');
         }
         runInNewContext(`output = stringify(${input})`, context);
