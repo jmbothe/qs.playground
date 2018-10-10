@@ -32,7 +32,7 @@ class App extends Component {
       const input = prevState.objectForm.inputValue;
       try {
         if (!/^{[^]*}$/.test(input)) {
-          throw new Error('Invalid JavaScript template literal.');
+          throw new Error('Invalid object literal.');
         }
         runInNewContext(`output = stringify(${input})`, context);
 
